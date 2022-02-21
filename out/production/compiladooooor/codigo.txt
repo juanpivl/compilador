@@ -1,0 +1,61 @@
+Algoritmo compilador () Es
+
+ a : Entero ;
+
+ bR : Entero ;
+ s : Cadena ;
+ y : Cadena ;
+ z : Cadena ;
+ Q : Cadena ;
+ b : Cadena ;
+ x : Entero ;
+ n : Entero
+
+Inicio
+
+
+s := 'Introduce el numero:';
+
+y := 'El valor de n es:';
+
+z := 'El valor de x es:';
+
+b := 'El numero introducido fue:';
+
+a := 4;
+
+bR := 2 + 2;
+
+x := a * 2 - bR ;
+
+n := 8;
+
+Escribir y;
+
+Escribir n;
+
+Mientras (n > a) Hacer
+    Si (a = 4) Entonces
+        Escribir s;
+        Leer Q;
+        Escribir b;
+        Escribir Q;
+        a := a + 1
+    Sino
+        Escribir z;
+        Escribir a;
+        a := a + 1;
+        Si (n = a) Entonces
+            Escribir z;
+            Escribir a
+        Sino
+            Escribir s;
+            Leer Q;
+            Escribir b;
+            Escribir Q
+        Fin_si
+    Fin_si
+  Fin_mientras
+
+
+Fin
